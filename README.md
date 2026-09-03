@@ -243,7 +243,6 @@ DARS/
 │   └── data_access.md
 │
 └── scripts/
-    ├── dataset_split.py
-    ├── annotation_conversion.py
     ├── dataset_statistics.py
-    └── ...mal_bus`
+    ├── event_level_split.py
+    └── labelme2yolo.py
