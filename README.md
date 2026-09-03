@@ -39,8 +39,6 @@ DARS contains six instance categories jointly defined by vehicle type and accide
 | `normal_bus` | 914 |
 | **Total** | **49,613** |
 
-Accident-involved vehicles account for approximately **25.7%** of all annotated instances, while non-accident-involved vehicles account for approximately **74.3%**.
-
 ---
 
 ## 3. Dataset Construction
@@ -104,8 +102,6 @@ More details are provided in:
 
 ## 6. Event-Level Dataset Split
 
-The complete DARS dataset is divided into training, validation, and test sets using an approximate **7:2:1** ratio.
-
 The split is performed at the **accident-event level rather than the individual-image level**. Images or extracted video frames identified as belonging to the same accident event are assigned exclusively to one subset to reduce event-level information leakage.
 
 The final event-level split contains:
@@ -163,10 +159,6 @@ Materials subject to redistribution restrictions, including relevant purchased o
 
 Researchers interested in accessing the curated subset may contact:
 
-**Xuyang Zhai**  
-Email: zhaixuyang@tute.edu.cn
-
-**Xiaofeng Liu**  
 Email: xfliu@tute.edu.cn
 
 Suggested email subject:
@@ -214,10 +206,10 @@ If you use DARS or the materials provided in this repository in your research, p
 
 ```bibtex
 @article{zhai2026dars,
-  title   = {Frequency-Guided Feature Representation for Instance Segmentation in Aerial-View Traffic Accident Scenes},
-  author  = {Zhai, Xuyang and Liu, Xiaofeng and Cao, Weiwei and Liu, Junli},
-  journal = {Sustainability},
-  year    = {2026}
+  title   = {XXX},
+  author  = {XXX},
+  journal = {XXX},
+  year    = {XXX}
 }
 ```
 
@@ -241,8 +233,4 @@ The curated subset and the materials in this repository are intended for **non-c
 
 For questions about DARS, the repository, or data access, please contact:
 
-**Xuyang Zhai**  
-Email: zhaixuyang@tute.edu.cn
-
-**Xiaofeng Liu**  
 Email: xfliu@tute.edu.cn
